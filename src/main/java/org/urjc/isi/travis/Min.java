@@ -29,7 +29,7 @@ public class Min
        Iterator<? extends T> itr = list.iterator();
        T result = itr.next();
        if (result == null) {
-    	   throw new NullPointerException ("El primer elemento es null");
+    	   throw new NullPointerException ("El primer elemento de la lista es null");
        }
 
        while (itr.hasNext())
